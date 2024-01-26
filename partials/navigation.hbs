@@ -1,0 +1,28 @@
+{{#if isSecondary}}
+    <ul class="nav" role="menu">
+        {{#foreach navigation}}
+            <li class="nav-{{slug}}" role="menuitem">
+                <a href="{{url}}">
+                    <svg class="icon" role="img" aria-label="{{slug}} icon">
+                        <title>{{slug}}</title>
+                        <use xlink:href="#{{slug}}"></use>
+                    </svg>
+                </a>
+            </li>            
+        {{/foreach}}
+    </ul>
+{{else}}
+    <ul class="nav" role="menu">
+        {{#foreach navigation}}
+           <li class="{{link_class for=(url) class=(concat "nav-" slug)}}" role="menuitem">
+                 <!--<a href="{{url absolute="true"}}">{{label}}</a>-->
+                <a href='{{url}}'>
+                    <!--<svg class='gh-icon-btn' fill="none" stroke="currentColor" stroke-width="2">
+                        <use xlink:href='{{asset "images/menu-icons.svg"}}#{{slug}}'></use>
+                    </svg>-->
+                    {{> "icons/navicons"}}
+                </a>
+            </li>
+        {{/foreach}}
+    </ul>
+{{/if}}
