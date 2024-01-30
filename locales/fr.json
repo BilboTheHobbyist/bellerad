@@ -13,7 +13,7 @@
     "A collection of 1 post": "Un ensemble de 1 publication",
     "A collection of % posts": "Un ensemble de % publications",
     "Get the latest posts delivered right to your inbox": "Recevez l'actualité des publications directement dans votre boîte aux lettres",
-    "Latest Posts": "Publications Actuelles",
+    "Latest Posts": "Actualités",
     "<a href='{url}'>More posts</a> by {name}": "<a href='{url}'>Plus de publications</a> de {name}",
     "No posts": "Pas de publications",
     " (Page %)": " (Page %)",
@@ -28,6 +28,7 @@
     "% posts": "% publications",
     "1 min read": "1 min de lecture",
     "% min read": "% min de lecture",
-    "Home": "Accueil",
-    "By": "Par"
+    "About": "A propos",
+    "By": "Par",
+    "Topics": "Thèmes"
 }
