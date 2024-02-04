@@ -666,7 +666,28 @@
     fill: "currentColor"
 }
 
+.gh-icon-btn {
+    color: var(--color-white)!important;
+}
+
 .gh-icon-btn svg {
     height: 30px!important;
     width: 30px!important;
-  }
+    color: var(--color-white)!important;
+}
+
+.gh-head {
+   background-color: var(--color-secondary-text)!important;
+}
+
+.gh-burger {
+   color: var(--color-white)!important;   
+}
+
+.gh-burger::after {
+    background-color: var(--color-white)!important;
+}
+
+.gh-burger::before {
+    background-color: var(--color-white)!important;
+}
