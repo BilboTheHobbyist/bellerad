@@ -19,7 +19,7 @@
                 <div class="gh-head-brand-wrapper">
                     <a class="gh-head-logo" href="{{@site.url}}">
                         {{#if @site.logo}}
-                            <img src="{{@site.logo}}" alt="{{@site.title}}">
+                            <img src="{{@site.logo}}" alt="{{@site.title}}" class="gh-head-logo">
                         {{else}}
                             {{@site.title}}
                         {{/if}}
@@ -37,8 +37,8 @@
                     {{/match}}
                 {{/unless}}
             </nav>
-
             <div class="gh-head-actions">
+                <!-- darkmode placeholder-->
                 {{#unless @site.members_enabled}}
                     {{^match @custom.navigation_layout "Stacked"}}
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
