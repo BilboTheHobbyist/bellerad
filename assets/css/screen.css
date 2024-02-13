@@ -674,7 +674,7 @@
 .gh-icon-btn svg {
     height: 30px!important;
     width: 30px!important;
-    color: var(--color-white)!important;
+    color: var(--color-white);
 }
 
 .gh-head {
@@ -702,3 +702,7 @@
     /*color: var(--color-white) !important;*/
     filter: brightness(0) invert(1);
 }
+
+/*.gh-icon-btn-footer svg {
+    color: var(--color-light-gray)!important;
+}*/
